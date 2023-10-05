@@ -1,0 +1,39 @@
+  @import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+:root{
+    --primary-color: #292524;
+    --bg-color: #f59e0b;
+}
+body{
+    font-family: 'Antic', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+}
+.navigation{
+    background-color: var(--bg-color);
+    text-align: right;
+    border-radius: 0.2rem 5rem;
+    padding: 1rem 1rem 0rem 1rem;
+}
+.list .nav-list{
+    display: block;    
+}
+.list-inline{
+    display: inline;
+    text-decoration: none;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0rem 1rem;
+}
+.active{
+    color: #f97316;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.profile
+{
+    text-align: left;
+}
